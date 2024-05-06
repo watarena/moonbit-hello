@@ -1,0 +1,15 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "set -x && moon build && node index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

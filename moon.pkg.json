@@ -1,0 +1,14 @@
+{
+  "name": "toplevel",
+  "import": [
+    "username/hello/lib"
+  ],
+  "link": {
+    "wasm": {
+      "exports": [
+        "hello",
+        "handle_string"
+      ]
+    }
+  }
+}

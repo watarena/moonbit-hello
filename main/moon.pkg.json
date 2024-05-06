@@ -1,0 +1,14 @@
+{
+  "is_main": true,
+  "import": [
+    "username/hello/lib"
+  ],
+  "link": {
+    "wasm": {
+      "exports": [
+        "hello",
+        "handle_string"
+      ]
+    }
+  }
+}

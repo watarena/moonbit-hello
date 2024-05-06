@@ -1,0 +1,10 @@
+{
+  "link": {
+    "wasm": {
+      "exports": [
+        "hello",
+        "handle_string"
+      ]
+    }
+  }
+}
